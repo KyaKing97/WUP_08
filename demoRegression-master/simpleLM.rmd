@@ -76,7 +76,7 @@ predict(simpWT,new,se.fit=TRUE)
 ```
 
 # CHEST
-## Model LENGTH ~ CHEST
+##  Model LENGTH ~ CHEST
 
 ```{r}
 simpCT <- lm(LENGTH~CHEST,data=bears)
