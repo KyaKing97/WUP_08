@@ -16,7 +16,7 @@ bears <- read.csv(file="BEARS.csv",header = TRUE)
 ```
 
 # NECK
-##    
+## Model LENGTH ~ NECK    
 
 ```{r}
 simp <- lm(LENGTH~NECK,data=bears)
